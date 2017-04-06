@@ -135,14 +135,4 @@ wtd.hist.pctWTS.cens2 <- function (x, breaks = "Sturges", freq = NULL, probabili
 #  WORKS FINE UNDER R-3.3.1 (2016-06-12)   #
 ############################################
 
-
-## EXAMPLES ##
-wtd.hist.pctWTS.cens2(scrtbl[ which(scrtbl[,"barley.area"]!=0), "farm.business.income"], nclass=42, main="", xlab="fbi", ylab="Per Cent of Farms (%)", las=1, col="yellow", weight=scrtbl[ which(scrtbl[,"barley.area"]!=0), "weight"])
-
-# y <- rnorm(100000)
-# w <- abs(y)
-# w[1:100000] <- 1
-# wtd.hist.pctWTS.cens2(y, nclass=42, main="", xlab="sd", ylab="Per Cent of Popn (%)", las=1, col="yellow", weight=w)
-
-
-
+                        
